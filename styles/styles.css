@@ -1,45 +1,45 @@
 /*Reglas de estilo de la version 0.2*/
 body {
-    background-color: rgb(151, 147, 142);
-    color: blue;
+    background-color: rgb(26, 5, 133);
+    color: white;
 }
 
 /*HEADER*/
 .anclasNavH {
-    background-color: whitesmoke;
-    color: blue;
+    background-color: #1a237e;
+    color: white;
     text-decoration: none;
     margin: 10px;
     padding: 5px;
 }
 
-/*MAIN*/
-.perfilGeneral{
-    margin-top: 10px;
-    height: 1188.81px;
-    width: 29%;
-    display: inline-block;
-    background-color: whitesmoke;
-    color: blue;
+.titulosG {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.titulosG {
-    margin-left: 5px;
+/*MAIN*/
+.perfilGeneral{
+    height: 1188.81px;
+    width: 30%;
+    display: inline-block;
+    background-color: #534bae;
+    color: whitesmoke;
 }
 
 #Foto {
-    margin: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
     padding: 10px;
-    background-color: blue;
+    background-color: #1a237e;
 }
 
 .perfilProfesional{
-    margin-top: 10px;
     height: 1188.81px;
     width: 70%;
     float: right;
     background-color: whitesmoke;
-    color: blue;
+    color: black;
 }
 
 .titulosP {
@@ -51,22 +51,41 @@ body {
 }
 
 .cadi {
-    color: blueviolet;
+    color: blue;
     display: inline-block;
 }
 
 #Fospuca {
-    color: blueviolet;
+    color: blue;
     display: inline-block;
+}
+
+#ExpL {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a237e;
+    color: white;
+}
+
+#Est {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a237e;
+    color: white;
+}
+
+#PG {
+    text-align: center;
 }
 
 /*FOOTER*/
 
 .anclasNavF {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 5px;
-    background-color: whitesmoke;
-    color: blue;
+    background-color: #1a237e;
+    color: white;
     text-decoration: none;
     display: inline-block;
 }
