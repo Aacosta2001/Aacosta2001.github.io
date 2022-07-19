@@ -1,3 +1,77 @@
+/*Reglas de estilo de la version 0.2*/
+body {
+    background-color: rgb(151, 147, 142);
+    color: blue;
+}
+
+/*HEADER*/
+.anclasNavH {
+    background-color: whitesmoke;
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*MAIN*/
+.perfilGeneral{
+    margin-top: 10px;
+    height: 1188.81px;
+    width: 29%;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.titulosG {
+    margin-left: 5px;
+}
+
+#Foto {
+    margin: 30px;
+    padding: 10px;
+    background-color: blue;
+}
+
+.perfilProfesional{
+    margin-top: 10px;
+    height: 1188.81px;
+    width: 70%;
+    float: right;
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.titulosP {
+    margin-left: 20px;
+}
+
+.contenidoP {
+    margin: 10px;
+}
+
+.cadi {
+    color: blueviolet;
+    display: inline-block;
+}
+
+#Fospuca {
+    color: blueviolet;
+    display: inline-block;
+}
+
+/*FOOTER*/
+
+.anclasNavF {
+    margin: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*Reglas de estilo de la version 0.1*/
 #cuerpo{
     background-color: #243030; 
     color: whitesmoke;
