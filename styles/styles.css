@@ -1,10 +1,20 @@
 /*Reglas de estilo de la version 0.2*/
 body {
-    background-color: rgb(26, 5, 133);
+    background-image: url(https://images.hdqwalls.com/wallpapers/vaporwave-zl.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
     color: white;
 }
 
 /*HEADER*/
+header {
+    background-color: #000051; 
+    padding-top: 10px; 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .anclasNavH {
     background-color: #1a237e;
     color: white;
@@ -19,6 +29,11 @@ body {
 }
 
 /*MAIN*/
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .perfilGeneral{
     height: 1188.81px;
     width: 30%;
@@ -79,6 +94,11 @@ body {
 }
 
 /*FOOTER*/
+footer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 
 .anclasNavF {
     margin-left: 10px;
