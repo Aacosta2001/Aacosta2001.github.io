@@ -77,6 +77,9 @@ main > section > article > div{
     opacity: 0%;
     transition: 0.5s all ease-in-out;
 }
+main > section > article:hover{
+    transform: scale(1.05);
+}
 main > section > article > div:hover{
     opacity: 80%;
 }
