@@ -1,0 +1,125 @@
+#artBlogExp{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    top: -3%;
+}
+#cerrar{
+    width: 35px;
+    height: 35px;
+    background-color: #f57f17;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1%;
+    right: 1.5%;
+}
+#cerrar:hover{
+    background-color: antiquewhite;
+    border: 2px solid #f57f17;
+    color: #f57f17;
+    cursor: pointer;
+}
+#artBlogExp img{
+    top: 60px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 65px;
+}
+#artBlogExp p{
+    margin: 2% 10%;
+    font-size: 2rem;
+    overflow-y: scroll;
+}
+
+#blog{
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30% 30% 30%;
+    gap: 30px;
+    margin: 0 12.5%;
+}
+#blog button{
+    align-self: center;
+    background-color: #f57f17;
+    color: white;
+    margin-bottom: 20px;
+}
+#blog button:hover{
+    background-color: antiquewhite;
+    border: 2px solid #f57f17;
+    color: #f57f17;
+    cursor: pointer;
+}
+#blog img{
+    position: relative;
+    width: 100%;
+}
+#blog h3{
+    margin: 0 10% 0;
+}
+#blog h1{
+    margin-top: 0;
+    margin: 0 10% 0;
+}
+#blog p{
+    height: 10rem;
+    margin: 10% 10%;
+    overflow-y:hidden;
+}
+#blog > article{
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px black;
+    padding-bottom: 10%;
+}
+#blog > article:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#blog > article > div{
+    display: flex;
+    flex-direction: column;
+}
+#blog > article:nth-child(1){
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#blog > article:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#blog > article:nth-child(3){
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#blog > article:nth-child(4){
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#blog > article:nth-child(5){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#blog > article:nth-child(6){
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#blog > article:nth-child(7){
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#blog > article:nth-child(8){
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#blog > article:nth-child(9){
+    grid-column: 3/4;
+    grid-row: 3/4;
+}

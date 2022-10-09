@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photostudio</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styleInicio.css">
+    <link rel="stylesheet" href="./css/stylePortaf.css">
+    <link rel="stylesheet" href="./css/styleBlog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,15 +17,14 @@
     <header>
         <img src="./imgs/logo.png" alt="">
         <ul>
-            <li><a id="btnInic" onclick="cambioInicio(secCambiante)">INICIO</a></li>
-            <li><a id="btnPorta" onclick="cambioPortafolio(secCambiante)">PORTAFOLIO</a></li>
-            <li><a id="btnBlog">BLOG</a></li>
+            <li><a id="btnInic" onclick="cambioInicio()">INICIO</a></li>
+            <li><a id="btnPorta" onclick="cambioPortafolio()">PORTAFOLIO</a></li>
+            <li><a id="btnBlog" onclick="cambioBlog()">BLOG</a></li>
             <li><a id="btnSobre">SOBRE MÍ</a></li>
             <li><a id="btnContac">CONTACTO</a></li>
         </ul>
     </header>
     <main>
-        <div id="capa"></div>
         <h1 id="titulo">Inicio</h1>
         <section id="secc">
             <section id="inicio">
@@ -31,24 +33,23 @@
                     <h3>Photostudio</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quasi tempora fugit quisquam nulla perferendis dignissimos odio maiores magni ipsum? At aperiam nulla nihil officia placeat ex aspernatur nam molestiae?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam praesentium libero iste culpa quasi dicta quod aut, rerum quisquam eos ut modi, expedita fugiat nam earum voluptatum! Molestias, architecto hic!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cumque eaque a reiciendis. Nobis eos voluptatibus iste, vel alias dignissimos quasi inventore illum tenetur fuga reiciendis molestias asperiores! Ipsum, excepturi?</p>
                 </article>
                 <article>
                     <h1>Nuestros clientes</h1>
                     <article>
                         <img class="clientes" src="./imgs/inicio/1czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvczg5LXRlZC0yMzk0LnBuZw.webp" alt="">
                         <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptates, quod alias neque illum rem eaque perferendis quasi blanditiis fugiat </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptees. </p>
                     </article>
                     <article>
                         <img class="clientes" src="./imgs/inicio/2czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvay1wci1zMzEtdGVuLTA2NC1qb2IzMy5wbmc.webp" alt="">
                         <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptates, quod alias neque illum rem eaque perferendis quasi blanditiis fugiat </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptees. </p>
                     </article>
                     <article>
                         <img class="clientes" src="./imgs/inicio/free-png-happy-black-person-png-images-transparent-black-man-thumbs-up-11563648491mkncpzrjrf.png" alt="">
                         <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptates, quod alias neque illum rem eaque perferendis quasi blanditiis fugiat </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptees. </p>
                     </article>
                 </article>
                 <article><img src="./imgs/inicio/pexels-photo-1466845.webp" alt=""></article>
@@ -63,6 +64,8 @@
             <li><a href="#"><img src="./imgs/google-plus.png" alt=""></a></li>
         </ul>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="./js/functions.js"></script>
 </body>
 </html>
