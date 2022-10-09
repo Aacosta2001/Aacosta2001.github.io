@@ -1,30 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photostudio</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <img src="./imgs/logo.png" alt="">
-        <ul>
-            <li><a id="btnInic">INICIO</a></li>
-            <li><a id="btnPorta">PORTAFOLIO</a></li>
-            <li><a id="btnBlog">BLOG</a></li>
-            <li><a id="btnSobre">SOBRE MÍ</a></li>
-            <li><a id="btnContac">CONTACTO</a></li>
-        </ul>
-    </header>
-    <main>
-        <div id="capa"></div>
-        <h1 id="titulo">Inicio</h1>
-        <section id="secc">
+window.onload = () =>{
+    let capaCarga = document.getElementById("capa");
+    let secCambiante = document.getElementById("secc");
+    let tituloCambiante = document.getElementById("titulo");
+
+    capaCarga.style.opacity = "0%";
+
+    document.getElementById("btnInic").addEventListener("click",function (){
+        //capaCarga.style.opacity = "100%";
+        tituloCambiante.innerText = "Inicio";
+        secCambiante.innerHTML =`
             <section id="inicio">
                 <article>
                     <h1>Estamos aquí para capturar <span>Tus mejores memorias.</span> </h1>
@@ -52,17 +36,56 @@
                     </article>
                 </article>
                 <article><img src="./imgs/inicio/pexels-photo-1466845.webp" alt=""></article>
-            </section>
-        </section>
-    </main>
-    <footer>
-        <h2> <span>PHOTOSTUDIO</span> 2018. © Todos los derechos reservados</h2>
-        <ul>
-            <li><a href="#"><img src="./imgs/facebook.png" alt=""></a></li>
-            <li><a href="#"><img src="./imgs/twitter.png" alt=""></a></li>
-            <li><a href="#"><img src="./imgs/google-plus.png" alt=""></a></li>
-        </ul>
-    </footer>
-    <script src="./js/functions.js"></script>
-</body>
-</html>
+            </section>`
+        //capaCarga.style.opacity = "0%";
+    })
+
+    document.getElementById("btnPorta").addEventListener("click",function (){
+        //capaCarga.style.opacity = "100%";
+        tituloCambiante.innerText = "Portafolio";
+        secCambiante.innerHTML = `
+        <section id="portafolio">
+        <article>
+            <div></div>
+            <img src="./imgs/1nature-heid-talic-advanced-graduate.jpg" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/2the_dying_daylight_-_4016_x_6016.jpg" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/3canada-in-pictures-beautiful-places-to-photograph-peggys-cove-lighthouse.jpg" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/4grasssky.jpg" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/5wassar" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/6_102.jpg" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/7Havasu-falls.jpg" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/8photo-1514724390871-40d54bd0484d.jfif" alt="">
+        </article>
+        <article>
+            <div></div>
+            <img src="./imgs/9tumblr_m7oynl386H1qa7gx5o1_500.jpg" alt="">
+        </article>
+        </section>`
+        /*secCambiante.onload = () =>{
+            capaCarga.style.opacity = "0%";
+        }*/
+    })
+
+
+}
