@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZAFIRO</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="./img/Z/diamondicon.png" type="image/x-icon">
+  </head>
+  <body class="bg-light">
+    <header class="container-fluid-no-gutteers row bg-white border">
+      <nav class="navbar justify-content-between d-md-none fs-6 p-0">
+        <article class="d-flex align-items-center text-secondary">
+          <a class="navbar-brand" href="#"
+            ><i class="bi bi-facebook text-primary ms-3 me-1 fs-1"></i
+          ></a>
+          <i class="bi bi-search mx-2 p-2 rounded-circle bg-light"></i>
+          <div class="dropdown">
+            <button
+              class="dropdown-toggle"
+              data-bs-toggle="dropdown"
+              id="dropdownMenu"
+              aria-expanded="false"
+            >
+              <i class="bi bi-list mx-2 fs-1"></i>
+            </button>
+            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+              <li class="dropdown-item">
+                <a href="#">Link</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Link</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Link</a>
+              </li>
+            </ul> -->
+          </div>
+        </article>
+        <article class="d-flex align-items-center">
+          <i class="bi bi-plus-lg mx-2 p-2 rounded-circle bg-light"></i>
+          <i class="bi bi-messenger mx-2 p-2 rounded-circle bg-light"></i>
+          <i class="bi bi-bell-fill mx-2 p-2 rounded-circle bg-light"></i>
+          <i
+            class="bi bi-caret-down-fill ms-1 me-3 p-2 rounded-circle bg-light"
+          ></i>
+        </article>
+      </nav>
+      <nav class="navbar d-none d-md-flex p-0">
+        <article class="col-3 d-flex align-items-center">
+          <i
+            class="navbar-brand bi bi-facebook text-primary ms-3 me-1 fs-1 p-0"
+          ></i>
+          <form class="d-flex" role="search">
+            <i
+              class="btn rounded-circle bi bi-search position-absolute align-self-center"
+            ></i>
+            <input
+              class="rounded-pill bg-light border py-2 ps-5 w-100"
+              type="search"
+              placeholder="Buscar en Facebook"
+            />
+          </form>
+        </article>
+        <article class="col-5 d-flex fs-4 align-items-center">
+          <div class="dropdown col hBtns">
+            <i
+              class="bi bi-house-door-fill dropdown-toggle"
+              data-bs-toggle="dropdown"
+              id="dropdownMenu1"
+            ></i>
+            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+            </ul> -->
+          </div>
+          <div class="dropdown col hBtns">
+            <i
+              class="bi bi-collection-play dropdown-toggle"
+              data-bs-toggle="dropdown"
+              id="dropdownMenu2"
+            ></i>
+            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+            </ul> -->
+          </div>
+          <div class="dropdown col hBtns">
+            <i
+              class="bi bi-shop-window dropdown-toggle"
+              data-bs-toggle="dropdown"
+              id="dropdownMenu3"
+            ></i>
+            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+            </ul> -->
+          </div>
+          <div class="dropdown col hBtns">
+            <i
+              class="bi bi-people-fill dropdown-toggle"
+              data-bs-toggle="dropdown"
+              id="dropdownMenu4"
+            ></i>
+            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+            </ul> -->
+          </div>
+          <div class="dropdown col hBtns">
+            <i
+              class="bi bi-columns dropdown-toggle"
+              data-bs-toggle="dropdown"
+              id="dropdownMenu5"
+            ></i>
+            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu5">
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+              <li class="dropdown-item">Link</li>
+            </ul> -->
+          </div>
+        </article>
+        <article
+          class="col-4 d-flex align-items-center justify-content-end fs-6"
+        >
+          <div class="d-flex justify-content-end">
+            <img
+              src="./img/Z/ZafirGenshin.jpg"
+              alt="foto"
+              class="rounded-circle"
+              width="40px"
+              height="40px"
+            />
+          </div>
+          <span class="mb-1 mx-2 fw-bold">Zafiro</span>
+          <i
+            class="bi bi-grid-3x3-gap-fill mx-2 p-2 rounded-circle bg-light hBtns"
+          ></i>
+          <i class="bi bi-messenger mx-2 p-2 rounded-circle bg-light hBtns"></i>
+          <i class="bi bi-bell-fill mx-2 p-2 rounded-circle bg-light hBtns"></i>
+          <i
+            class="bi bi-caret-down-fill ms-1 me-3 p-2 rounded-circle bg-light hBtns"
+          ></i>
+        </article>
+      </nav>
+    </header>
+    <main class="container-fluid-no-gutters row pt-4">
+      <section class="col-3 d-none d-md-flex flex-column">
+        <article id="col1" class="d-flex flex-column accordion accordion-flush sticky-top">
+          <div class="row py-2 accordion-item">
+            <div
+              class="row accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#content1"
+            >
+              <span class="col-3 offset-1 pe-0">
+                <img
+                  src="./img/Z/ZafirGenshin.jpg"
+                  alt="foto"
+                  class="rounded-circle"
+                  width="50px"
+                  height="50px"
+                />
+              </span>
+              <span class="col align-self-center fw-bold px-0"
+                >Zafiro</span
+              >
+            </div>
+            <div
+              id="content1"
+              class="accordion-collapse collapse"
+              data-bs-parent="#col1"
+            >
+              Una gran líder capaz de mantener bajo control todo un sistema de personalidades distintas.
+            </div>
+          </div>
+          <div class="row accordion-item">
+            <div
+              class="row accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#content2"
+            >
+              <span class="col-3 offset-1 pe-0">
+                <i class="bi bi-person-lines-fill text-primary fs-1"></i>
+              </span>
+              <span class="col pt-1 px-0">
+                <span class="fw-bold">Amigos</span>
+                <ul class="ps-3 text-primary">
+                  <li>Solicitudes</li>
+                </ul>
+              </span>
+            </div>
+            <div
+              id="content2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#col1"
+            >
+              Inteligente y selectiva con las personas que desea mantener cerca.
+            </div>
+          </div>
+          <div class="row accordion-item">
+            <div
+              class="row accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#content3"
+            >
+              <span class="col-3 offset-1 pe-0">
+                <i class="bi bi-person-rolodex text-primary fs-1"></i>
+              </span>
+              <span class="col pt-1 px-0">
+                <span class="fw-bold">Grupos</span>
+                <ul class="ps-3 text-primary d-none">
+                  <li>Solicitudes</li>
+                </ul>
+              </span>
+            </div>
+            <div
+              id="content3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#col1"
+            >
+              No forma parte de cualquier grupo, ya que sabe de con quiénes mantener la distancia.
+            </div>
+          </div>
+          <div class="row accordion-item">
+            <div
+              class="row accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#content5"
+            >
+              <span class="col-3 offset-1 pe-0">
+                <i class="bi bi-play-btn text-primary fs-1"></i>
+              </span>
+              <span class="col pt-1 px-0">
+                <span class="fw-bold">Watch</span>
+                <ul class="ps-3 text-primary">
+                  <li>Videos nuevos</li>
+                </ul>
+              </span>
+            </div>
+            <div
+              id="content5"
+              class="accordion-collapse collapse"
+              data-bs-parent="#col1"
+            >
+              Mantiene al sistema bien cuidado y, a pesar de que no siempre está vigilando, sabe llegar para calmar las cosas cuando está en caos.
+            </div>
+          </div>
+          <div class="row accordion-item">
+            <div
+              class="row accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#content6"
+            >
+              <span class="col-3 offset-1 pe-0">
+                <i class="bi bi-clock-history text-primary fs-1"></i>
+              </span>
+              <span class="col pt-1 px-0">
+                <span class="fw-bold">Recuerdos</span>
+                <ul class="ps-3 text-primary d-none">
+                  <li>Notificaciones</li>
+                </ul>
+              </span>
+            </div>
+            <div
+              id="content6"
+              class="accordion-collapse collapse"
+              data-bs-parent="#col1"
+            >
+              No comparto demasiados momentos ni recuerdos con ella, más que un par de ocasiones y conversaciones bastante interesantes pero puedo darme cuenta de que es una persona bastante especial e importante.
+            </div>
+          </div>
+
+          <div class="row accordion-item">
+            <div
+              class="row accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#content11"
+            >
+              <span class="col offset-4 d-flex pt-1 px-0">
+                <span class="col align-self-center fw-bold px-0 pb-2"
+                  >Ver más</span
+                >
+              </span>
+            </div>
+            <div
+              id="content11"
+              class="accordion-collapse collapse"
+              data-bs-parent="#col1"
+            >
+              Y aún quedan muchos años para proteger y cuidar del hermoso sistema donde existe.
+            </div>
+          </div>
+        </article>
+        <hr />
+      </section>
+      <section
+        class="position-relative col-10 offset-1 offset-md-0 col-md-5 ps-3"
+      >
+        <div class="modal fade" id="Modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5">
+                  Por parte de todos:
+                </h1>
+                <button
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body p-0">
+                <video width="100%" height="100%" type="video/MP4" src="./img/Z/Team Member Birthday Facebook Video in Black Gold White Traditional Luxe Style.mp4" autoplay controls></video>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <article id="historias" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              <div class="row px-2">
+                <div class="col px-0 mx-1 border rounded card history bg-white">
+                  <img
+                    src="./img/Z/ZafirGenshin.jpg"
+                    alt="Foto"
+                    class="photo -own rounded-top"
+                  />
+                  <i
+                    class="creaH bi bi-plus-lg text-white bg-primary fs-4 rounded-circle"
+                  ></i>
+                  <h6 class="text-center mt-4 px-0 px-sm-1 px-md-0 px-xl-3">
+                    Crea una historia
+                  </h6>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/Z/You.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/Z/You.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">Yui</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/Z/RED.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/Z/RED.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">Red</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/Z/HOONY.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/Z/HOONY.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">Hoony</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/Z/MISTIK.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/Z/MISTIK.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">Mistik</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="carousel-item"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              <div class="row px-2">
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img src="./img/Z/Aury.jpg" alt="Foto" class="photo rounded" />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/Z/Aury.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-info">Aury</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img src="./img/Z/LAYLA.jpg" alt="Foto" class="photo rounded" />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/Z/LAYLA.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">Layla</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/Z/KAORI.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/Z/KAORI.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-danger">Kaori</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/z/valen1.png"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/z/valen1.png"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-warning">
+                      Boo
+                    </h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                    <img
+                      src="./img/images.jfif"
+                      alt="Foto"
+                      class="photo rounded"
+                    />
+                    <div
+                      class="sobrefoto d-flex flex-column justify-content-between"
+                    >
+                      <img
+                        src="./img/images.jfif"
+                        alt="foto"
+                        class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                        width="35px"
+                        height="35px"
+                      />
+                      <h6 class="text-center text-white">Pepe Aristóbulo</h6>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div
+              class="carousel-item"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              <div class="row px-2">
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/miguel.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/miguel.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">El pana Miguel</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/gatoceja.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/gatoceja.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">
+                      Yo cuando el codigo no funciona como quiero
+                    </h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img src="./img/aaaaa.jpg" alt="Foto" class="photo rounded" />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/aaaaa.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">
+                      AAAA EL CÓDIGO NO COMPILA
+                    </h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img
+                    src="./img/jejeje.jpg"
+                    alt="Foto"
+                    class="photo rounded"
+                  />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/jejeje.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">Sí funcionó</h6>
+                  </div>
+                </div>
+                <div class="col px-0 mx-1 border rounded card history">
+                  <img src="./img/eri.jpg" alt="Foto" class="photo rounded" />
+                  <div
+                    class="sobrefoto d-flex flex-column justify-content-between"
+                  >
+                    <img
+                      src="./img/eri.jpg"
+                      alt="foto"
+                      class="rounded-circle border border-4 border-primary ms-2 mt-2"
+                      width="35px"
+                      height="35px"
+                    />
+                    <h6 class="text-center text-white">
+                      Pero no quedó como quería
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="carousel-control-prev"
+              data-bs-target="#historias"
+              data-bs-slide="prev"
+            >
+              <i class="btn bg-white rounded-circle bi bi-arrow-left"></i>
+            </div>
+            <div
+              class="carousel-control-next"
+              data-bs-target="#historias"
+              data-bs-slide="next"
+            >
+              <i class="btn bg-white rounded-circle bi bi-arrow-right"></i>
+            </div>
+          </div>
+        </article>
+        <article class="row mt-4 rounded bg-white muro">
+          <div class="card px-0">
+            <div class="card-header">
+              <div
+                class="d-flex justify-content-between align-items-center pb-2"
+              >
+                <span class="d-flex py-1">
+                  <img
+                    src="./img/foto.png"
+                    alt="foto"
+                    class="rounded-circle"
+                    width="60px"
+                    height="60px"
+                  />
+                  <span class="ms-3">
+                    <div class="fw-bold fs-5">Arón Acosta</div>
+                    <div class="text-secondary fs-6">
+                      10 de marzo del 2023 • <i class="bi bi-people-fill"></i>
+                    </div>
+                  </span>
+                </span>
+                <i class="bi bi-three-dots"></i>
+              </div>
+              <div class="py-1">
+                <div>Un año más de vida.
+                    <br><br>
+                </div>
+                <div>Debo reconocer que, a pesar de no interactuar mucho contigo, me pareces sumamente agradable.
+                    Siento que eres de las que más puede entender las cosas de la vida con una visión mucho más madura con respecto a todo,
+                    tienes mi respeto y mi aprecio por todas las ocasiones que tomaste las riendas para mantener el control y evitar que el sistema sufra un colapso.
+                    <br><br>
+                    Siendo no más que un espectador que observa todo desde afuera, aún soy capaz de darme cuenta del enorme esfuerzo que representa hacer algo así.
+                    Escucho tus consejos como si fueran consejos de mi propia madre, pues encuentro todo el sentido en ellos. Me parecen los consejos más razonables y,
+                    me disculpo de antemano por no tomarlos a veces, pero de verdad aprecio que tengas la paciencia incluso de soportarme a mí. 
+                    <br><br>
+                    Sin embargo, esta carta no es para pedirte disculpas. Esta carta es para felicitarte por este día tan especial y desearte los mejores deseos. Hoy, 10 de marzo, es el día de nuestra Zafiro, 
+                    un día sumamente especial y que merece ser celebrado por el sistema completo ya que su líder y cuidadora está cumpliendo un año más junto a ellas.
+                    El día de hoy, un diamante fue traído al mundo para deslumbrar y guiar a todos en la oscuridad con un carácter firme, actitud serena y amable con quienes lo merecen.
+                    <br><br>
+                    Yo, Arón, te deseo que tengas un excelente día y que disfrutes junto a tus seres queridos celebrando la vida.
+                    <br><br>
+                    Con un gran cariño y una profunda admiración hacia tu persona; Feliz cumpleaños, Zafiro. Adjunto una foto del pabellón que te invitaré a comer algún día.
+                </div>
+              </div>
+            </div>
+            <div class="card-body d-flex justify-content-center bg-dark p-0">
+              <img src="./img/pabellon.jpg" class="img-fluid" />
+            </div>
+            <div class="card-footer px-3">
+              <span class="text-primary"
+                ><i
+                  class="bi bi-hand-thumbs-up-fill text-white bg-primary p-1 rounded-circle"
+                ></i>
+                Pepe Aristóbulo</span
+              >
+              <hr class="mb-1" />
+              <div class="d-flex flex-row justify-content-evenly">
+                <button class="btn btn-light">
+                  <i class="bi bi-hand-thumbs-up"></i> Me gusta
+                </button>
+                <button class="btn btn-light">
+                  <i class="bi bi-chat-left"></i> Comentar
+                </button>
+                <button class="btn btn-light">
+                  <i class="bi bi-share"></i> Compartir
+                </button>
+              </div>
+              <hr class="mt-1" />
+              <div class="row my-1">
+                <span class="col-1">
+                  <img
+                    src="./img/Z/ZafirGenshin.jpg"
+                    alt="foto"
+                    class="rounded-circle"
+                    width="40px"
+                    height="40px"
+                  />
+                </span>
+                <span class="col input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Escribe un comentario..."
+                  />
+                  <button
+                    class="btn btn-light border-top border-bottom bg-white fs-5"
+                  >
+                    <i class="bi bi-emoji-smile"></i>
+                  </button>
+                  <button
+                    class="btn btn-light border-top border-bottom bg-white fs-5"
+                  >
+                    <i class="bi bi-camera"></i>
+                  </button>
+                  <button
+                    class="btn btn-light border-top border-bottom bg-white fs-5"
+                  >
+                    <i class="bi bi-filetype-gif"></i>
+                  </button>
+                  <button
+                    class="btn btn-light border-top border-bottom border-end bg-white fs-5"
+                  >
+                    <i class="bi bi-stickies"></i>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="d-none d-md-block col-4 px-0">
+        <article class="row offset-1 col-10 pe-4 bg-white rounded border">
+          <div class="col-12 mb-3">
+            <span class="fw-bold d-flex justify-content-between">
+              <span>
+                <i class="bi bi-person-plus-fill text-primary"></i>
+                Solicitudes de amistad
+              </span>
+              <i class="bi bi-three-dots"></i>
+            </span>
+          </div>
+          <div class="row col-12 py-4 px-0">
+            <span class="col-4 d-flex pe-0 justify-content-center">
+              <img
+                src="./img/Elon_Musk_Royal_Society_(crop1).jpg"
+                alt="foto"
+                class="rounded-circle w-75 h-75"
+              />
+            </span>
+            <span class="col px-0">
+              <span class="fw-bold">
+                Elon Musk
+                <span class="float-end pe-2 text-primary position-relative">
+                  1 sem <i class="bi bi-dot fs-1 puntoS"></i>
+                </span>
+              </span>
+              <div class="pt-2 pb-3 text-secondary">
+                <img
+                  src="./img/M-hffw5a_400x400.jpg"
+                  alt="foto"
+                  class="rounded-circle sobrepuesto"
+                />
+                <img
+                  src="./img/Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg"
+                  alt="foto"
+                  class="rounded-circle"
+                  width="20px"
+                  height="20px"
+                />
+                Amigos en común
+              </div>
+              <button
+                class="btn btn-primary me-2"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsable"
+              >
+                Confirmar
+              </button>
+              <button class="btn btn-light">Eliminar</button>
+            </span>
+          </div>
+        </article>
+        <div class="col offset-1 collapse" id="colapsable">
+          <hr />
+          <div class="row my-2">
+            <article class="col-4">
+              <img
+                src="./img/invierteBitcoins.jpg"
+                class="rounded"
+                width="100%"
+                height="150px"
+              />
+            </article>
+            <article
+              class="col d-flex flex-column align-items-start justify-content-center px-0"
+            >
+              <h5>Invierte en cripto</h5>
+              <h6 class="text-secondary">www.criptopower.net</h6>
+            </article>
+          </div>
+        </div>
+        <hr class="offset-1 col" />
+        <article id="publicidad" class="row offset-1 col-11 pe-4 sticky-top">
+          <h4 class="text-secondary">Publicidad</h4>
+          <div class="row my-2">
+            <article class="col-6">
+              <img
+                src="./img/a49841831348630f4031d788fddfddce.jpg"
+                class="rounded"
+                width="100%"
+                height="150px"
+              />
+            </article>
+            <article
+              class="col-6 d-flex flex-column align-items-start justify-content-center px-0"
+            >
+              <h5>Never give up on your deams</h5>
+              <h6 class="text-secondary">www.knowledge.net</h6>
+            </article>
+          </div>
+          <div class="row my-2">
+            <article class="col-6">
+              <img
+                src="./img/1456171235.jpg"
+                class="rounded"
+                width="100%"
+                height="150px"
+              />
+            </article>
+            <article
+              class="col-6 d-flex flex-column align-items-start justify-content-center px-0"
+            >
+              <h5>10 de Marzo, Día Del Médico</h5>
+              <h6 class="text-secondary">www.vnzlastate.com</h6>
+            </article>
+          </div>
+          <div class="row my-2">
+            <article class="col-6">
+              <img
+                src="./img/Z/siokenteindo.jfif"
+                class="rounded"
+                width="100%"
+                height="150px"
+              />
+            </article>
+            <article
+              class="col-6 d-flex flex-column align-items-start justify-content-center px-0"
+            >
+              <h5>Ryo Cuando Le Dicen Que No</h5>
+              <h6 class="text-secondary">www.watejelryo.com</h6>
+            </article>
+            </div>
+            <hr class="offset-1 col" />
+        </article>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+    /*Para centrar y darle hover a los botones centrales del header*/
+    .hBtns {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 0.8rem;
+      border-bottom: 3px solid transparent;
+    }
+    .hBtns:hover {
+      cursor: pointer;
+      color: blue;
+      border-bottom: 3px solid blue;
+    }
+
+    /*Para modificar y asignar la altura de las imágenes de las historias*/
+    #historias .card {
+      position: relative;
+      transition: 0.3s all ease-in-out;
+    }
+    .history {
+      height: 200px;
+    }
+    #historias .card:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+    .photo {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .-own {
+      height: 115px;
+    }
+
+    /*Para posicionar los elementos sobre las fotos de las historias*/
+    .sobrefoto {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*Para posicionar y acomodar el estilo del boton de crear historias*/
+    .creaH {
+      align-self: center;
+      position: absolute;
+      top: 50%;
+      border: 2px solid white;
+    }
+    /*Para darle hover a los items de la primera columna en el main*/
+    #col1 > div:hover span {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    /*Para posicionar el punto al lado de la semana en la solicitud de amistad*/
+    .puntoS {
+      position: absolute;
+      top: -65%;
+      left: 60%;
+    }
+    /*Para que una imagen de amigos en común quede sobre la otra*/
+    .sobrepuesto {
+      position: relative;
+      left: 3%;
+      border: 3px solid white;
+      height: 26px;
+      width: 26px;
+    }
+
+    /*Para darle hover a los articulos de publicidad*/
+    #publicidad > div:hover > article {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    /*Para modificar las animaciones de los componentes bootstrap*/
+    .carousel-item {
+      transition: all 2s ease-in-out;
+    }
+
+    .fade {
+      transition: all 0.3s ease-in-out;
+    }
+  </style>
+</html>
