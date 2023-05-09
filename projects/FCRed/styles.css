@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*HEADER STYLES*/
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+    background-color: black;
+    z-index: 10;
+}
+
+header .logo{
+    font-size: 25px;
+    color: white;
+}
+
+header .search_box{
+    width: 250px;
+    background-color: rgba(239, 239, 239, 1);
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+header .search_box i{
+    color: black;
+}
+
+header .search_box input{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-right: 20px;
+}
+
+header nav ul li img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+header nav i {
+    color: white;
+    font-size: 22px;
+}
+
+/*BODY STYLES*/
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%;
+    color: white;
+}
+
+.story{
+    z-index: 1;
+    background-color: rgb(50, 50, 50);
+    padding: 16px 0;
+    border: 1px solid rgb(162, 162, 162);
+}
+
+.stories img{
+    width: 70%;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px outset rgb(208,10,10);
+}
+
+.stories div{
+    text-align: center;
+}
+
+.left{
+    width: 64%;
+}
+
+.post{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 3px;
+    margin: 25px 0;
+}
+
+.posts .post_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.posts .post_header .post_left{
+    display: flex;
+    align-items: center;
+}
+
+.posts .post_header .post_left img{
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.pname{
+    font-weight: bold;
+}
+
+.posts .post_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.posts .post_footer i{
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.posts .post_footer_content{
+    padding: 0 16px 16px 16px;
+}
+
+.likes{
+    margin-bottom: 8px;
+}
+
+.posts .post_footer_content .name{
+    font-weight: 600;
+}
+
+.post_text{
+    margin-bottom: 10px;
+}
+
+.pcontent{
+    margin-left: 10px;
+}
+
+.posting_time{
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+.add_comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid rgb(162, 162, 162);
+}
+
+.add_comment i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.add_comment .left{
+    display: flex;
+    align-items: center;
+}
+
+.add_comment input{
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.right{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(162, 162, 162);
+    width: 35%;
+    padding: 30px;
+    position: fixed;
+    right: 30px;
+}
+
+.profile_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile_title .profile_left{
+    display: flex;
+    align-items: center;
+}
+
+.profile_title .profile_left .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile_title .profile_left .name{
+    padding-bottom: 3px;
+}
+
+.suggestions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: sticky;
+    bottom: 10px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h1{
+    color: purple;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:992px){
+    header{
+        padding: 10px 20px;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+}
+
+@media (max-width:780px){
+    header .search_box{
+        display: none;
+    }
+    main{
+        padding: 10px 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width:500px){
+    header nav ul li{
+        margin-right: 5px;
+    }
+    header nav i{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:370px){
+    .logo{
+        font-size: 18px !important;
+    }
+}
