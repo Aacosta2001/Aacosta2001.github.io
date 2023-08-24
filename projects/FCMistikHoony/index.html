@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mistter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./images/twitterred.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <div class="mistter">
+        <i class="fab fa-twitter"></i>
+        <h1>Mistter</h1>
+      </div>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <h2>Profile</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed__header">
+        <h2>Home</h2>
+      </div>
+
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img
+              src="./images/MISTIK400.png"
+              alt=""
+            />
+            <input type="text" placeholder="What's happening?" />
+          </div>
+          <button class="tweetBox__tweetButton">Tweet</button>
+        </form>
+      </div>
+      <!-- tweetbox ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Y el día de hoy, tras una gran trayectoria y muchos desafíos por delante, sigo aquí a tu lado con el gran placer de poder desearte una vez más un muy feliz y especial cumpleaños.<br>
+              Este año has logrado alcanzar grandes metas en tu vida, y estoy seguro de que todavía faltan muchas más que sin duda alguna lograrás superar sin problemas, ya que te conozco y sé el potencial que tienes para lograr lo que te propones.<br>
+              No sabes lo orgulloso que me has hecho sentir hasta ahora con todo tu esfuerzo y los cambios que has tenido desde el año pasado hasta esta fecha actual, 25 de agosto, la fecha del cumpleaños de una gran chica como lo eres tú.<br>
+              Mi amor por ti es tan fuerte y tan profundo que siempre te estaré deseando lo mejor desde cualquier rincón del mundo, en cualquier momento y en cualquier situación. Te amo un montón, Mistik. Te deseo el mejor de los cumpleaños, bienvenida a la vida adulta. Y no tengas miedo, que lo harás de maravilla.<br>
+              Vas a ser una excelente y maravillosa mujer, y yo espero ser el hombre de tu vida que te acompañará por muchos años y te seguirá apoyando e impulsándote a conseguir tus metas.</p>
+            </div>
+          </div>
+          <video playsinline autoplay muted loop poster="./images/CumpleMitiP.png">
+            <source src="./images/CumpleMiti.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>12:00 AM  08/25/2023</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Me has dejado amarte.<br>
+                Sé tus traumas y tus heridas.<br>
+                Y el hecho de que me hayas permitido acercarme tanto a ti, entregarte mi amor y hacerte feliz es algo que me hace sentir especial.<br>
+                Me aceptas tal y como soy, y me amas siendo como soy.<br>
+                Yo no necesito razones especiales para amar a alguien.<br>
+                No necesito que sea una persona exitosa.<br>
+                Que tenga un cuerpazo.<br>
+                Que sea la persona más amable del mundo o que haga todo bien.<br>
+                Yo solo necesito una persona que me deje amar como quiero amar.<br>
+                Necesito a alguien a quien no le de miedo abrirse conmigo, entregarse a mi amor y dejarme amarla.<br>
+                Necesito a alguien que me haga sentir especial de la manera en la que me siento especial contigo.<br></p>
+            </div>
+          </div>
+          <img
+            src="./images/mstk.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>1:12 AM  05/14/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>A partir de hoy, acepto entrar en un compromiso más profundo con ustedes y unirme a ustedes con estos anillos, y si hacen falta más anillos los buscaremos también.<br>
+                Yo, Slendy, Dante o Aron, como prefieran llamarme, soy de ustedes y para ustedes, a pesar de que ya llevo siéndolo un buen tiempo... Ahora es oficial, y dando la cara a mi miedo al compromiso estoy dispuesto a unirme a ustedes de esta manera especial.</p>
+            </div>
+          </div>
+          <img
+            src="./images/anillos2.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>11:31 PM  05/03/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Ahora puedo decirte que tienes un hermoso hogar.
+                No solo por mí, sino por las demás personitas que forman tu sistema y que te cuidan tanto como yo podría hacerlo.<br>
+                Es cierto que yo he ido más allá al punto de abarcar tus necesidades amorosas, he entendido tu pasado y trato de sanar tus traumas con el amor que te doy.
+                Pero ellas también te cuidan de la forma en la que saben hacerlo, ya sea con consejos, con regaños o con bromas.<br>
+                Yo te amo mucho y estoy dispuesto a seguir entregándote mi amor hasta donde me lo permitas o hasta donde sientas que mi amor ya no te llena.
+                No me importa si te ves como un monstruo porque yo veo más allá de solo eso.<br>
+                Veo a una chica hermosa que ha pasado por mucho, y que poco a poco se arriesga y se enfrenta a sus traumas para volver a amar.</p>
+            </div>
+          </div>
+          <img
+            src="./images/family.png"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>8:57 PM  04/24/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>No hay malas maneras, Mist.
+                Solo hay maneras.<br>
+                En la vida no todo es blanco o negro.
+                Es gris con diferentes tonos.<br>
+                Si hiciste cosas "malas", tuviste tus motivos,
+                pero ahora ya no hace falta que esas cosas vuelvan a ocurrir.<br>
+                Al menos no mientras yo esté aquí y te pueda enseñar un poco sobre cómo manejar esas situaciones.</p>
+            </div>
+          </div>
+          <img
+            src="./images/slendxmist.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>12:33 AM  04/21/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Te amo porque tienes el valor de mostrarte como realmente eres conmigo, te enfrentas a tus traumas para poder estar conmigo, te enfrentas a tu miedo a ser lastimada para poder estar cerca de mí, porque a pesar de que tienes dudas sobre mí sigues decidiendo creer en mí, porque yo en ti no veo un monstruo, solo veo una persona que ha sido lastimada muchas veces y que puedo ayudar a sanar con cariño y amor.<br>
+                La verdad es que para escribir todas las razones tendría que llevarme un buen tiempo haciéndolo.
+                Pero amo como interactuamos, como jugueteamos, como nos coqueteamos, como confiamos el uno del otro, como sabemos que podemos trabajar como un equipo y apoyarnos mutuamente, ayudarnos a crecer.<br>
+                Eres una mujer hermosa, que merece ser tratada con cuidado y respeto.<br>
+                Para mí eres como una rosa, que es hermosa y huele muy bien, pero sin embargo sé que hay espinas en su tallo.
+                Pero eso no me detiene en lo más mínimo, yo quiero seguir dándole agua y quiero seguir acercándome para olerla y acariciar sus pétalos.</p>
+            </div>
+          </div>
+          <img
+            src="./images/rosa.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>11:06 PM  04/02/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Cartita de San Valentin para la linda señorita Paola.
+
+                <br>Hoy es un día especial, un día muy lindo donde todas las parejas se unen para compartir su amor a través de regalos y pequeños detalles para hacerse felices en un día donde también gran parte del mundo llega a sentirte en su punto más solitario.
+                
+                <br>Por mi parte, ya no es así. Ahora te tengo a ti y puedo compartir este día especial contigo, me hace sentir feliz poder contar con alguien a quién le puedo dedicar mi amor y mi pasión ya sea a través de texto o pequeñas muestras de cariño.
+                
+                <br>Soy una persona sencilla y me cuesta hacer regalos geniales.
+                <br>Pero eso no me detiene de querer darte lo mejor que puedo con lo poco que conozco y que tengo, si por mi fuera te estaría buscando en clases para llevarte a comer algo en un parque y darte chocolates, flores y escuchar música contigo mientras miramos al cielo y nos ponemos a buscar figuras con las nubes.
+                
+                <br>Eres una gran persona, una maravillosa chica con una energía muy linda y una vibra muy positiva a pesar de todo lo duro que has pasado en la vida. Has sabido superar y seguir avanzando para ir mejorando y creciendo, y yo me siento orgulloso de poder acompañarte aunque sea durante un breve período de ese crecimiento.
+                
+                <br>Te amo, porque supiste entender mi vacío desde el principio y fuiste la luz que me dio esperanza de seguir avanzando cuando ya no quería nada. Te amo porque eres genial, te amo porque eres única en el mundo. Y principalmente te amo porque eres tú, sin miedos al qué dirán, brillando y mostrándole al mundo tu radiante luz. Por eso todos se encariñan contigo, por lo bonita que eres y lo lindo que sabes tratar a todos con la empatía y el respeto digno.
+                <br>Un solo día no es suficiente para demostrar lo mucho que te quiero.
+                <br>Por eso yo seguiré demostrándote mi cariño día a día para hacerte lo más feliz que pueda durante el tiempo que la vida me permita continuar contigo. El amor es de las cosas más bonitas que puede sentir el ser humano y vale la pena experimentarlo al máximo sin arrepentimientos mientras se pueda. Voy a querer y a comprender cada una de tus partes lo mejor que pueda, dándoles el mismo cariño que te doy a ti y la misma atención porque todas y cada una de ellas son una parte de ti. 
+                
+                <br>Conmigo eres, y siempre serás tan libre como un pájaro en el cielo. Vas a poder volar, dar vueltas y disfrutar del viento bajo tus alas aunque yo no pueda volar, y para mí será más que suficiente con verte contenta creciendo y explorando los cielos para descubrir más de ti misma y aventurarte en nuevas experiencias que te ayuden a crecer como persona.
+                
+                <br>La vida es un río que fluye sin parar, y me alegro de haberte conocido cuando yo solo me dejaba llevar por ese río sin saber dónde iba a parar.
+                <br>Feliz san Valentín Mistik, feliz san Valentín Paola, feliz san Valentin Layla, feliz san Valentín Zafiro, feliz san Valentin Aurora, feliz san Valentin Kaori... son todas las que he conocido por ahora.
+                <br>Con mucho cariño y un profundo amor, de parte de Slendy.</p>
+            </div>
+          </div>
+          <img
+            src="./images/valen.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>10:43 AM  02/14/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Querida... con gusto aceptaría esos anillos sabiendo que ellos te harían sentir unida a mí, y no es algo tonto en lo absoluto. Me parece un conmovedor gesto de amor por tu parte, un gesto que adoro mucho.
+                <br>
+                Viendo que deseas sentirte unida a mí, y me da una inmensa alegría saber que sientes ese deseo...
+                <br>
+                Yo, Slendy, te concederé el placer de recibir tu anillo y al mismo tiempo te daré la elección de decidir cuál de ellos me pondré.
+              </p>
+            </div>
+          </div>
+          <img
+            src="./images/anillos.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>1:43 PM  10/04/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Sé que has estado ocupada últimamente y que casi no hemos hablado como antes pero no debes preocuparte, yo te deseo la mejor de las suertes en todas las tareas que tengas en tu día y si me necesitas aquí puedes buscarme, si yo estoy libre aquí estaré.
+                Para alegrarte el día y que comiences con un buen pie, te dejo un helado de vainilla con chispas de arcoiris  de esos que amas, así como yo te amo a ti.</p>
+            </div>
+          </div>
+          <img
+            src="./images/chispas.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>8:59 AM  09/24/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Mírenla el cielo encender,
+                ma belle Paola.
+                <br>
+                Inalcanzable querer,
+                su amor yo sé que es para mí.
+                <br>
+                J’te adore.
+                J’te aime,
+                Paola.
+                <br>
+                Por las noches vendrás así,
+                y más.
+                La reina mas bella por aquí,
+                me quiere solo a mí.
+                <br>
+                Siempre hay un método de amar,
+                y te amo, Paola.
+                <br>
+                El hermoso amor,
+                el grandioso amor,
+                así es nuestro amor.
+                <br>
+                ¿Verdad que sí?
+                Me oui.
+                <br>
+                Mírenla el cielo encender.
+                Te amo, Paola.</p>
+            </div>
+          </div>
+          <img
+            src="./images/evangeline.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>1:30 AM  09/11/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./images/slendy400.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Slendy Ruar
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@slendyzaur</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Para la chica más detallista,
+                Porque merece mucho más que solo un feliz cumpleaños, merece todo el amor que pueda recibir y mucho más.
+                No soy más que un hombre de palabras lindas, románticas y decoradas por los versos que transmite su corazón; mis manos no sirven mucho para hacer manualidades pero espero que puedan servir para brindarte calidez y alegría en este día tan especial que apenas comienza.
+                Estás por comenzar una nueva etapa en tu vida, preciosa. Bienvenida a la vida adulta, donde vas a poder ser un poco más libre de lo que ya eras y vas a comenzar a experimentar nuevas cosas en tu vida, cosas que quizás ya hayas vivido en roles pero vivirlas en la vida real es una experiencia totalmente distinta. No puedo más que desearte la mejor de las suertes y que consigas mucha felicidad en el camino que te queda por recorrer.
+                Trata de recordar, cuando estés en los momentos de oscuridad, que dentro tienes un brillo que nada podrá apagar y solo es cuestión de tiempo para que vuelvas a elevarte en el cielo para alumbrar como solo tú sabes hacerlo.
+                Sin más rodeos, te deseo con todo mi corazón romántico que tengas un excelente día de cumpleaños y puedas sentir el amor de todos los que te quieren en el mundo.
+                Feliz cumpleaños, Paola Rivero, te amo.
+                Una fotito de Panda Rojo porque los amas mucho. Mientras buscaba imágenes, me di cuenta de que lucen sumamente adorables, mimables y apapachables como vos.</p>
+            </div>
+          </div>
+          <img
+            src="./images/QFKYEVHDSBFRVJFJDGWBWMBYAY.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <div class="post__footerDescription">
+              <p>12:00 AM  08/25/2022</p>
+            </div>
+            <div class="post_footerIcons">
+              <span class="material-icons"> repeat </span>
+              <span class="material-icons"> favorite_border </span>
+              <span class="material-icons"> publish </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+
+      
+    </div>
+    <!-- feed ends -->
+    <!-- widgets starts -->
+    <div class="widgets">
+      <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon"> search </span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+
+      <div class="widgets__widgetContainer">
+        <h2>What's happening?</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Sunsets don&#39;t get much better than this one over
+            <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>.
+            <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw"
+              >#nature</a
+            >
+            <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw"
+              >#sunset</a
+            >
+            <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+          </p>
+          &mdash; US Department of the Interior (@Interior)
+          <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw"
+            >May 5, 2014</a
+          >
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+    <!-- widgets ends -->
+    <footer class="extras">
+      <div>
+          <h1>Mistik Song</h1>
+          <audio controls loop src="./MaBelleEvangeline.mp3"></audio>
+          <a href="./netflix-clone/index.html">Regalo para Hoony</a>
+      </div>
+    </footer>
+  </body>
+</html>

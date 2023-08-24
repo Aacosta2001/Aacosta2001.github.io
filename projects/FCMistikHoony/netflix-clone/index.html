@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoonflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/Netflix_N_logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- nav -->
+    <div id="nav" class="nav">
+      <img class="nav__logo" src="../images/Hoonflix-8-18-2023.png" alt="" />
+      <img class="nav__avatar" src="../images/HOONY400.png" alt="" />
+    </div>
+
+    <!-- header -->
+    <header class="banner">
+      <div class="banner__contents">
+        <video playsinline autoplay muted loop poster="./images/3.png">
+          <source src="./images/CumpleHoony.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="banner--fadeBottom"></div>
+    </header>
+
+    <!-- Netflix Originals -->
+    <div class="row">
+      <h2>MENSAJES PARA TI</h2>
+      <div class="row__posters">
+        <img class="row__poster row__posterLarge" src="./images/CartaH1.png" alt="" />
+
+        <img class="row__poster row__posterLarge" src="./images/CartaH2.png" alt="" />
+
+        <img class="row__poster row__posterLarge" src="./images/CartaH3.png" alt="" />
+
+        <img class="row__poster row__posterLarge" src="./images/CartaH4.png" alt="" />
+
+        <img class="row__poster row__posterLarge" src="./images/CartaH5.png" alt="" />
+
+        <img class="row__poster row__posterLarge" src="./images/CartaH6.png" alt="" />
+
+        <img class="row__poster row__posterLarge" src="./images/CartaH7.png" alt="" />
+
+        <img class="row__poster row__posterLarge" src="./images/CartaH8.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Trending Now -->
+    <div class="row">
+      <h2>Pokemones cute para ti</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="./images/Koalamon.gif" alt="" />
+
+        <img class="row__poster" src="./images/cutepokemons.webp" alt="" />
+
+        <img class="row__poster" src="./images/pikachu.webp" alt="" />
+
+        <img class="row__poster" src="./images/ninetales.jpg" alt="" />
+
+        <img class="row__poster" src="./images/snorlax.jpg" alt="" />
+
+        <img class="row__poster" src="./images/egg.jpg" alt="" />
+
+        <img class="row__poster" src="./images/eve.jpg" alt="" />
+
+        <img class="row__poster" src="./images/piplup.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Top Rated -->
+    <div class="row">
+      <h2>Te deseamos feliz cumpleaños</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="../images/ZafirGenshin.jpg" alt="" />
+
+        <img class="row__poster" src="../images/MERAKI400.png" alt="" />
+
+        <img class="row__poster" src="../images/RED400.png" alt="" />
+
+        <img class="row__poster" src="../images/YUI400.png" alt="" />
+
+        <img class="row__poster" src="../images/LAYLA400.png" alt="" />
+
+        <img class="row__poster" src="../images/CLARA.jpg" alt="" />
+
+        <img class="row__poster" src="../images/KAORI400.png" alt="" />
+
+        <img class="row__poster" src="../images/AURY400.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="row">
+      <div class="row__posters">
+        <img class="row__poster" src="../images/KYO400.png" alt="" />
+
+        <img class="row__poster" src="../images/RIGO400.png" alt="" />
+
+        <img class="row__poster" src="../images/ZURY.jpg" alt="" />
+
+        <img class="row__poster" src="../images/MISTIK400.png" alt="" />
+
+        <img class="row__poster" src="../images/slendy400.png" alt="" />
+
+        <img class="row__poster" src="./images/te.jpg" alt="" />
+
+        <img class="row__poster" src="./images/am.jpg" alt="" />
+
+        <img class="row__poster" src="./images/am.jpg" alt="" />
+
+        <img class="row__poster" src="./images/o.jpg" alt="" />
+
+        <img class="row__poster" src="./images/s.jpg" alt="" />
+
+      </div>
+    </div>
+
+    <footer class="extras">
+      <div>
+          <h1>Hoony Song</h1>
+          <audio controls loop src="./Home.mp3"></audio>
+          <a href="./netflix-clone/index.html">Regalo para Mistik</a>
+      </div>
+    </footer>
+    </div>
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
