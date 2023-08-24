@@ -306,6 +306,10 @@ footer a{
     width: 100%;
   }
 
+  .post__body video {
+    width: 100%;
+  }
+
   .post__headerDescription {
     width: 100%;
   }
